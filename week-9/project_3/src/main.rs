@@ -10,7 +10,7 @@ fn main() {
     ];
 
     let ministries = [
-    "Internal Affairs"'
+    "Internal Affairs",
     "Justice",
     "Defense",
     "Power & Steel",
@@ -35,7 +35,7 @@ fn main() {
 
     for i in 0..commissioners.len() {
         let data = format!(
-            "{}, {}, {}\n"'
+            "{}, {}, {}\n",
             commissioners[i],
             ministries[i],
             zones[i]
